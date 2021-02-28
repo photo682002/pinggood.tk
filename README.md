@@ -1,1 +1,1 @@
-# pinggood.tk
+pinggood.tk
