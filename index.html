@@ -37,9 +37,10 @@
 					function showMes9 (user) {
 						document.write('<a href="https://pinggood.tk/"><h1>Back</h1></a> <b>document:  </b>' + user + ' <br/>nhóm 3 css block khoảng 7 nhóm nhỏ bên trong...<br><br><strong>letter-spacing thuộc tính này giữ khoảng cách giữa các ký tự.</strong> thuộc tính này giữ khoảng cách giữa các ký tự.<br><br><strong>word-spacing</strong> thuộc tính này giữ khoảng cách giữa các từ trong đoạn văn.<br><br><strong> text-align </strong>thuộc tính này giữ định vị trí của đoạn văn bản.<br><br> <strong>text-indent </strong>khoảng cách thụt vào đầu dòng của đoạn văn bản.<br><br> <strong>white-space</strong> định dạng cho khoảng trắng trong đoạn văn.<br><br><strong>vertical-align</strong> vị trí của 1 phần tử.<br><br>vertical-align về phần này nên dùng thêm 1 thẻ để hiểu rõ về nó và thẻ này là thẻ span,,,<br><br><strong>display</strong> các kiểu hiển thị theo kiểu block, inline...<br><br>theo vd code demo thì demo nhóm block thì tạo ra 1 thẻ div trong thẻ div chứa 2 class tên là demo dùng css định dạng để làm khung và 1 class tiếp theo tên là  block-group class này dùng để dùng các thuộc tính trong nhóm block-group để định dạng ( tên là tùy ý đặt nhưng đặt vậy cho dễ nhớ )..<br><br>trong thẻ div trên tạo thêm 1 thẻ span.tức là span sau 2 class kia.<br><br> <strong>vertical-align về phần này nên dùng thêm 1 thẻ để hiểu rõ về nó và thẻ này là thẻ span chẳng hạn...</strong><br><br>tạm thời dùng css định dạng. để biết các thuộc tính kia còn..<strong>vertical-align vị trí của 1 phần tử. + display các kiểu hiển thị theo kiểu block, inline... thì để sau</strong> <br><br>thứ tự định dạng dùng css...reset khung * margin + padding =0;//.demo là định dạng cho class demo để tạo khung cho dễ nhìn gồm có rộng+cao+đường viền khung+khoảng cách khung chữ (width+height+border+margin)...<br><br><strong>định dạng tới .block-group là class ở bên trong khung demo cần để xem các kiểu và thuộc tính.</strong><br><br>/ giữ khoảng cách giữa các ký tự letter-spacing: normal;<br><br>// giữ khoảng cách giữa các từ trong đoạn văn letter-spacing: normal;<br><br>/// giữ khoảng cách vị trí đoạn văn bản text-align: justify;/*này có các thuộc tính con như là center, left, right, justify..<br><br>//// khoảng cách thụt vào đầu dòng của đoạn văn bản text-indent: 30px; <strong>thay đổi số px để quan sát /*có thể đặt số âm là chồi ra ngoài khung*/</strong><br><br>////// định dạng cho khoảng trăng trong văn bản white-space: normal; /*chỉ thường sử dụng nomal và pre  là văn bản nhập như thế nào hiện như vậy*/<br><br><strong>sơ qua về vertical-align + display </strong><br><br> vertical-align: ;/*có rất nhiều thuộc tính về loại này baseline, sub, super, top, text-top, middle,text-bottom, đến các giá trị số px 0px,25px... mà số là vô chừng tùy coder sử dụng */<br><br>display: block; /* các thuộc tính none, inline, block, list-item, table,...*/<br><br> giờ định dạng tới vertical-align tạo thêm 1 thẻ span sau block-group để thấy rõ sự khác biệt vậy thôi;<br><br>dùng css định dạng ....<br><br><strong>.block-group span{vertical-align: 0px; /*số px có thể dùng số âm - để chữ lệch xuống dưới.*/}</strong> <br><br>.block-group span vì thẻ span nằm trong class block-group nên css sẽ hiểu là định dạng <strong>trong class block-group và tìm tới thẻ span</strong> về độ lệch thì cứ chỉnh số px quan sát..<br><br>display các kiểu hiển thị theo kiểu block, inline... <br>còn nói về display thì trong chuyển khối đã dùng thuộc tính này để chuyển khối.<br>phần này sẽ đi các thuộc tính của display.tạo ra 1 thẻ để hiểu rõ về display, thẻ này có id là display cho dễ nhớ để tạo khung và trong khung lớn có vài <br>khung nhỏ để sử dụng thuộc tính display và các class này tương ứng với vị trí cần định dạng nằm  bên nào <br>như là trái , giữa , phải.<br><br>vd thẻ div để định dạng display trong này có lớp là id ( mà định dạng cho id thì #) để tạo khung ở thẻ div là khung chính và trong thẻ div <br>có vài thẻ con và trong thẻ con có vài lớp con mà trong thẻ con tạo vài lớp con là class con trong thẻ con. <br><br>gom tất cả các khung về 1 hàng display: table;<br><br>// khung dưới gom lên khung trên display: table-cell;<br><br> còn về để tạo 1 khung cơ bản thì không bàn nhiều gồm có ( màu + cao + rộng + nhảy lên hàng trên);;<br><br>/// /*dùng display để gom chún về 1 hàng định dạng cho id là #*/#display{display: table;}<br><br> clas trái phải giữa trong id display nên nằm sau và thuộc tính lớp lớp thì id class nằm ngoài id;<br><br>.left {background-color: blue;height: 200px;width: 100px;display: table-cell;<br><br><br><br><a href="https://hocnghe247.blogspot.com/2021/03/nhom-lock-khung-css.html"><h1>code demo.</h1></a><br><br><br>chú ý: cách định dạng này luôn.. thẻ >class>class>đến thẻ trong class. <br>tức là lúc này thẻ span trong class block-group. <br>mà định dạng cho thẻ thì cứ thế viết tên thẻ ra. <br><br><br><a href="https://pinggood.tk/"><h1>Back</h1></a>');	
 								}
-	    				function showMes10 (user) {
+					function showMes10 (user) {
 						 document.write('<a href="https://pinggood.tk/"><h1>Back</h1></a> <b>document:  </b>' + user + ' <br/>nhóm 4 border group: các thuộc tính của border...<br><br>chú ý cho kỹ cách này là thuộc tính đến các giá trị đầu tiên là kiểu đường viền xong đến nét , xong đến màu,,, thứ tự xếp thuộc tính các đường viền là ngược chiều kim VOM.<br><br>nhóm này dùng để định dạng đường viền cho html.<br><br> <strong>top</strong> /*ở phía bên trên*/<br><strong>right</strong>  bên phải<br><strong>bottom</strong> bên dưới<br><strong>left</strong> bên trái...; <br>chi tiết các thuộc tính border và thuộc tính  con của border.<br><br><strong>có khoảng 3 nhóm nhỏ bên trong</strong>.<br><br><strong>nhóm 1 độ rộng của đường viền.</strong><br><br><strong>border-width</strong><br><strong>các thuộc tính con trong border width.</strong><br>/*độ rộng đường viền nằm ở phía bên trên*/<br>border-top-width<br>/*độ rộng đường viền nằm ở bên tay phải*/<br>border-right-width<br>/*dưới*/<br>border-bottom-width<br>/*trái*/<br>border-left-width<br><br><strong>nhóm 2 border style kiểu của đường viền.</strong><br><br><strong>các thuộc tính con trong border style</strong><br>border-style: ;<br>border-top-style: ;<br>border-right-style: ;<br>border-bottom-style: <br>border-left-style: ;<br><br><strong>nhóm 3 màu sắc của đường viền.</strong><br><strong>border-color</strong><br><br>/*định dạng màu sắc của đường viền nằm bên tay nào thì tùy*/<br>border-top-color<br>border-right-color<br>border-bottom-color<br>border-left-color<br><br><br><br><br><br><a href="https://hocnghe247.blogspot.com/2021/03/border-khung-vien-va-cac-thuoc-tinh-con.html"><h1>code demo.</h1></a><br><br><br>chú ý:phần này viết tóm gọn nhất, chú ý cho kỹ cách này là thuộc tính đến các giá trị đầu tiên là kiểu đường viền xong đến nét , xong đến màu,,, thứ tự xếp thuộc tính các đường viền là ngược chiều kim VOM.<br><br><br><a href="https://pinggood.tk/"><h1>Back</h1></a>')
 					}
+						 
     </script>
     <style type="text/css">
 	
@@ -69,6 +70,9 @@
         padding: 1px;
         display: inline;
     }
+	a {
+		text-decoration:none;
+		}
     </style>
 </head>
 <body>
@@ -76,37 +80,42 @@
                        <h2> pinggood.tk </h2>                  
                         <br />
                         <br />
-                        <a href="#" onclick="showMes1();"><h1>1.các thẻ html div, span, a, p,...</h1></a>
+                        <a href="#" onclick="showMes1();"><h1>1.các thẻ html .....style css, scrip js,div, span, a, p, h1>h6, br, hr,...</h1></a>
                         <br />
                          <!--<br/><a href="https://pinggood.tk/"><h1>Back</h1></a>-->
    <!-- <h1>code demo</h1></a>. -->  
    <!--<br/><b> chú ý ...website pinggood.tk hoàn toàn không đăng ký đăng nhập .mọi hành vi khác không phải là đọc tài liệu tất cả đều không phải là pinggood.tk thực hiện............<br>note ... the pinggood.tk website is not registered at all. any other behavior is not reading the document, all is not pinggood.tk done .... ....<a href="https://pinggood.tk/"><h1>Back</h1></a>' -->                     
                       	<br />
-                        <a href="#" onclick="showMes2();"><h1>2.chuyển đổi khối tag html div ,sang, a ...</h1></a>
+                        <a href="#" onclick="showMes2();"><h1>2.chuyển đổi khối tag html div ,sang, a , span, p, display, block, inline, float...</h1></a>
                         <br />
                         <br/>
-                        <a href="#" onclick="showMes3();"><h1>3.cấu trúc html cơ bản cách viết 1 thẻ html.div =..</h1></a>
+                        <a href="#" onclick="showMes3();"><h1>3.cấu trúc html cơ bản cách viết 1 thẻ html = slector + property + value + content...</h1></a>
                         <br />
                         <br/>
                         <a href="#" onclick="showMes4();"><h1>4.khối thẻ như div, a, và các kiểu định dạng css và tạo khung đường viền và đường dẫn thẻ a.</h1></a>
                         <br />
                         <br/>
-                        <a href="#" onclick="showMes5();"><h1>5.kiểu định dạng css cho html là lớp lớp rất nhiều lớp// * ; . ; # </h1></a>
+                        <a href="#" onclick="showMes5();"><h1>5.kiểu định dạng css cho html là lớp lớp rất nhiều lớp// * clr ; . ; # </h1></a>
                         <br />
                         <br/>
-                        <a href="#" onclick="showMes6();"><h1>6.các nhóm css định dạng cho html như chữ,màu... </h1></a>
+                        <br/>
+                        <a href="#" onclick="showMes6();"><h1>6.các nhóm css định dạng type; background; block group; border group; box group; list group; position group; cho html như chữ,màu... </h1></a>
                         <br />
                         <br/>
-                        <a href="#" onclick="showMes7();"><h1>7.nhóm 1 type group: định dạng cho văn bản..kiểu font chủ yếu là chữ </h1></a>
+                        <br/>
+                        <a href="#" onclick="showMes7();"><h1>7.nhóm 1 type group: định dạng cho văn bản..kiểu font chủ yếu là chữ ; font; line; text; color...</h1></a>
                         <br/>
                         <br/>
-                        <a href="#" onclick="showMes8();"><h1>8.nhóm 2 background group: định dạng hình ảnh nền cho 1 đối tượng nào đó.</h1></a>
+                        <a href="#" onclick="showMes8();"><h1>8.nhóm 2 background group: định dạng hình ảnh nền cho 1 đối tượng nào đó.; background</h1></a>
                          <br/>
                          <br/>
-                         <a href="#" onclick="showMes9();"><h1>9.nhóm 3 block group: định dạng cho văn bản chủ yếu bố cục văn bản .</h1></a>
-			<br>
+                         <br/>
+                         <a href="#" onclick="showMes9();"><h1>9.nhóm 3 block group: định dạng cho văn bản chủ yếu bố cục văn bản; letter; word; text; white; vertical; display;.</h1></a>
                          <br>
-                         <a href="#" onclick="showMes10();"><h1>10.nhóm 4 border group: các thuộc tính của border</h1></a> 
+                         <br>
+                         <br/>
+                         <a href="#" onclick="showMes10();"><h1>10.nhóm 4 border group: các thuộc tính của border;; border</h1></a> 
+                         
      </p>
 </body>
 </html>
